@@ -5,6 +5,7 @@ import py_trees.console as console
 
 from py_trees_bt_runner.utils.node_factory import NODE_FACTORY
 from py_trees_bt_runner.utils.xml_bt_parser import XmlBTParser
+import os
 
 def main(args=None):
     rclpy.init(args=args)
@@ -12,7 +13,9 @@ def main(args=None):
     if len(sys.argv) > 1:
         tree_path = sys.argv[1]
     else:
-        tree_path = "/home/gianluca/py_trees_ws/src/trees/inspection_mission.xml" # Default tree path
+        default_tree = "trees/inspection_mission.xml" # Default tree path from the workspace folder
+
+        tree_path = os.path.join(os.path.dirname(__file__).split("/install")[0], "src", default_tree)
 
     parser = XmlBTParser(NODE_FACTORY)
 
