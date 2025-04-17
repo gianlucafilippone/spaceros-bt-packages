@@ -53,10 +53,10 @@ ros2 run py_trees_bt_runner bt_runner
 
 Using custom tree:
 ```
-ros2 run py_trees_bt_runner bt_runner path/to/tree_file.xml
+ros2 run py_trees_bt_runner bt_runner /full/path/to/tree_file.xml
 ```
 
-(Example: `ros2 run py_trees_bt_runner bt_runner src/trees/inspection_mission.xml`)
+(Example: `ros2 run py_trees_bt_runner bt_runner /home/user/ros2_ws/src/trees/inspection_mission.xml`)
 
 > [!NOTE]
 > Only the actions related to the _Inspection Mission_ (`inspection_mission.xml`) are implemented. They require the navigation system up and running.
