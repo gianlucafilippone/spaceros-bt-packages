@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'mock_nav = navigate_to_goal_server.mock_navigation_server:main',
-            'mars_rover_nav = navigate_to_goal_server.mars_rover_navigation_server:main'
+            'mock_nav = mars_rover_nav.mock_navigation_server:main',
+            'mars_rover_nav = mars_rover_nav.mars_rover_navigation_server:main'
         ],
     },
 )
