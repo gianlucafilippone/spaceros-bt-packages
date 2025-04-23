@@ -9,7 +9,7 @@
                         <!-- <LocationReached x="4" y="5" /> -->
                         <NavigateToGoal x="4" y="5" />
                     </Fallback>
-                    <TakePicture picture_id="1" />
+                    <TakePicture picture_id="1" save_path="/"/>
                 </Sequence>
             </Fallback>
             <Fallback name="Second Photo">
@@ -20,7 +20,7 @@
                         <!-- <LocationReached x="3" y="2" /> -->
                         <NavigateToGoal x="3" y="2" />
                     </Fallback>
-                    <TakePicture picture_id="2" />
+                    <TakePicture picture_id="2" save_path="/"/>
                 </Sequence>
             </Fallback>
         </Sequence>
