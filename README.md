@@ -2,19 +2,24 @@
 Collection of packages for running Behavior Trees over Space ROS
 
 ## Download & installation
-**Step 1:** Create and access the ROS2 workspace folder
-```
-mkdir ros2_ws
-cd ros2_ws
-```
-**Step 2:** Clone the repository and extract files inside the workspace's `src/` folder
+**Step 1:** Clone the repository and enter the repository folder
 ```
 git clone https://github.com/gianlucafilippone/spaceros-bt-packages.git
-mv spaceros-bt-packages src
+cd spaceros-bt-packages
 ```
-**Step 3:** Build packages
+
+**Step 2:** Build packages
 ```
+cd ros2_ws
 colcon build
+. install/setup.bash
+```
+
+**Aleternative:** Run into Docker container
+```
+docker build -t spaceros-packages .
+docker run -it --rm spaceros-packages spaceros-packages
+source /opt/ros/humble/setup.bash
 . install/setup.bash
 ```
 
