@@ -1,0 +1,34 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Colcon metadata
+.colcon/
+
+# CMake temporary files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Qt creator/project settings
+*.user
+*.user.*
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# MacOS system files
+.DS_Store
