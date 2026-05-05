@@ -1,0 +1,191 @@
+[0.246s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.246s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8a30c4ec20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8a30c4e200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8a30c4e200>>, mixin_verb=('build',))
+[0.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.859s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/mars_rover_nav) by extension 'ros'
+[0.881s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mars_rover_nav' with type 'ros.ament_python' and name 'mars_rover_nav'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extensions ['colcon_pkg']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_bt_runner) by extension 'ros'
+[0.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_trees_bt_runner' with type 'ros.ament_python' and name 'py_trees_bt_runner'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extension 'colcon_pkg'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extensions ['colcon_meta']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extension 'colcon_meta'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extensions ['ros']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extension 'ros'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extensions ['cmake', 'python']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extension 'cmake'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extension 'python'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extensions ['python_setup_py']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/trees) by extension 'python_setup_py'
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.933s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.933s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.936s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/gianluca/spaceros_tutorial/ros2-superbasics/ros2_ws/install
+[0.938s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/humble
+[0.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.008s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'cmake_target' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'cmake_clean_first' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'cmake_force_configure' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'ament_cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'mars_rover_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.009s] DEBUG:colcon.colcon_core.verb:Building package 'mars_rover_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav', 'merge_install': False, 'path': '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/mars_rover_nav', 'symlink_install': False, 'test_result_base': None}
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'cmake_target' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'cmake_clean_first' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'cmake_force_configure' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'ament_cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'py_trees_bt_runner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.010s] DEBUG:colcon.colcon_core.verb:Building package 'py_trees_bt_runner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner', 'merge_install': False, 'path': '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/py_trees_bt_runner', 'symlink_install': False, 'test_result_base': None}
+[1.010s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.012s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.012s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/mars_rover_nav' with build type 'ament_python'
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars_rover_nav', 'ament_prefix_path')
+[1.015s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/hook/ament_prefix_path.ps1'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/hook/ament_prefix_path.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/hook/ament_prefix_path.sh'
+[1.020s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.020s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.027s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/py_trees_bt_runner' with build type 'ament_python'
+[1.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_bt_runner', 'ament_prefix_path')
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/hook/ament_prefix_path.ps1'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/hook/ament_prefix_path.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/hook/ament_prefix_path.sh'
+[1.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.562s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/mars_rover_nav'
+[1.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.060s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/py_trees_bt_runner'
+[2.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.060s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/mars_rover_nav': PYTHONPATH=/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mars_rover_nav build --build-base /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build install --record /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/install.log --single-version-externally-managed install_data
+[3.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/py_trees_bt_runner': PYTHONPATH=/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_bt_runner build --build-base /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build install --record /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/install.log --single-version-externally-managed install_data
+[3.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/py_trees_bt_runner' returned '0': PYTHONPATH=/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_bt_runner build --build-base /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build install --record /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/install.log --single-version-externally-managed install_data
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner' for CMake module files
+[3.717s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner' for CMake config files
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/bin'
+[3.725s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/pkgconfig/py_trees_bt_runner.pc'
+[3.725s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages'
+[3.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_bt_runner', 'pythonpath')
+[3.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/hook/pythonpath.ps1'
+[3.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/hook/pythonpath.dsv'
+[3.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/hook/pythonpath.sh'
+[3.737s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/bin'
+[3.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_trees_bt_runner)
+[3.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/package.ps1'
+[3.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/package.dsv'
+[3.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/package.sh'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/package.bash'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner/package.zsh'
+[3.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/colcon-core/packages/py_trees_bt_runner)
+[4.136s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav' for CMake module files
+[4.136s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav' for CMake config files
+[4.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/mars_rover_nav' returned '0': PYTHONPATH=/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mars_rover_nav build --build-base /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build install --record /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/install.log --single-version-externally-managed install_data
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib'
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/bin'
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/pkgconfig/mars_rover_nav.pc'
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages'
+[4.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars_rover_nav', 'pythonpath')
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/hook/pythonpath.ps1'
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/hook/pythonpath.dsv'
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/hook/pythonpath.sh'
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/bin'
+[4.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mars_rover_nav)
+[4.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/package.ps1'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/package.dsv'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/package.sh'
+[4.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/package.bash'
+[4.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav/package.zsh'
+[4.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/colcon-core/packages/mars_rover_nav)
+[4.147s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.147s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.148s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.173s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.173s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.173s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.232s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/local_setup.ps1'
+[4.240s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/_local_setup_util_ps1.py'
+[4.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/setup.ps1'
+[4.253s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/local_setup.sh'
+[4.253s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/_local_setup_util_sh.py'
+[4.254s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/setup.sh'
+[4.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/local_setup.bash'
+[4.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/setup.bash'
+[4.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/local_setup.zsh'
+[4.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/setup.zsh'

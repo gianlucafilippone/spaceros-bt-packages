@@ -1,0 +1,60 @@
+[1.977s] Invoking command in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/py_trees_bt_runner': PYTHONPATH=/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_bt_runner build --build-base /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build install --record /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/install.log --single-version-externally-managed install_data
+[2.497s] running egg_info
+[2.497s] creating ../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info
+[2.498s] writing ../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info/PKG-INFO
+[2.498s] writing dependency_links to ../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info/dependency_links.txt
+[2.498s] writing entry points to ../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info/entry_points.txt
+[2.498s] writing requirements to ../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info/requires.txt
+[2.498s] writing top-level names to ../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info/top_level.txt
+[2.504s] writing manifest file '../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info/SOURCES.txt'
+[2.504s] reading manifest file '../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info/SOURCES.txt'
+[2.504s] writing manifest file '../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info/SOURCES.txt'
+[2.508s] running build
+[2.508s] running build_py
+[2.508s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build
+[2.508s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib
+[2.509s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner
+[2.509s] copying py_trees_bt_runner/bt_runner_node_dynamic.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner
+[2.509s] copying py_trees_bt_runner/__init__.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner
+[2.509s] copying py_trees_bt_runner/bt_runner_node.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner
+[2.509s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/behaviours
+[2.509s] copying py_trees_bt_runner/behaviours/mars_rover_behaviours.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/behaviours
+[2.510s] copying py_trees_bt_runner/behaviours/__init__.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/behaviours
+[2.510s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/utils
+[2.517s] copying py_trees_bt_runner/utils/__init__.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/utils
+[2.517s] copying py_trees_bt_runner/utils/xml_bt_parser.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/utils
+[2.517s] copying py_trees_bt_runner/utils/node_factory.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/utils
+[2.517s] running install
+[2.517s] running install_lib
+[2.517s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner
+[2.517s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/behaviours
+[2.517s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/behaviours/mars_rover_behaviours.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/behaviours
+[2.517s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/behaviours/__init__.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/behaviours
+[2.518s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/bt_runner_node_dynamic.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner
+[2.526s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/__init__.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner
+[2.526s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/bt_runner_node.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner
+[2.526s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/utils
+[2.526s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/utils/__init__.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/utils
+[2.527s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/utils/xml_bt_parser.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/utils
+[2.527s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build/lib/py_trees_bt_runner/utils/node_factory.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/utils
+[2.527s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/behaviours/mars_rover_behaviours.py to mars_rover_behaviours.cpython-310.pyc
+[2.527s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/behaviours/__init__.py to __init__.cpython-310.pyc
+[2.527s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/bt_runner_node_dynamic.py to bt_runner_node_dynamic.cpython-310.pyc
+[2.527s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/__init__.py to __init__.cpython-310.pyc
+[2.527s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/bt_runner_node.py to bt_runner_node.cpython-310.pyc
+[2.527s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/utils/__init__.py to __init__.cpython-310.pyc
+[2.531s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/utils/xml_bt_parser.py to xml_bt_parser.cpython-310.pyc
+[2.531s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner/utils/node_factory.py to node_factory.cpython-310.pyc
+[2.535s] running install_data
+[2.535s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/ament_index
+[2.536s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/ament_index/resource_index
+[2.536s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/ament_index/resource_index/packages
+[2.536s] copying resource/py_trees_bt_runner -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/ament_index/resource_index/packages
+[2.536s] copying package.xml -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/share/py_trees_bt_runner
+[2.536s] running install_egg_info
+[2.539s] Copying ../../build/py_trees_bt_runner/py_trees_bt_runner.egg-info to /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages/py_trees_bt_runner-0.0.0-py3.10.egg-info
+[2.543s] running install_scripts
+[2.608s] Installing bt_runner script to /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/py_trees_bt_runner
+[2.608s] Installing bt_runner_dynamic script to /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/py_trees_bt_runner
+[2.609s] writing list of installed files to '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/install.log'
+[2.674s] Invoked command in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/py_trees_bt_runner' returned '0': PYTHONPATH=/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/py_trees_bt_runner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_bt_runner build --build-base /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/build install --record /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/py_trees_bt_runner/install.log --single-version-externally-managed install_data

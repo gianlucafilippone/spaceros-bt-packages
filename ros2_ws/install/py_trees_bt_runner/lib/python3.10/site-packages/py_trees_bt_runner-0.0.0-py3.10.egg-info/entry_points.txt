@@ -1,0 +1,4 @@
+[console_scripts]
+bt_runner = py_trees_bt_runner.bt_runner_node:main
+bt_runner_dynamic = py_trees_bt_runner.bt_runner_node_dynamic:main
+

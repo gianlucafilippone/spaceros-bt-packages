@@ -1,0 +1,41 @@
+[1.884s] Invoking command in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/mars_rover_nav': PYTHONPATH=/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mars_rover_nav build --build-base /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build install --record /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/install.log --single-version-externally-managed install_data
+[2.991s] running egg_info
+[2.992s] creating ../../build/mars_rover_nav/mars_rover_nav.egg-info
+[2.994s] writing ../../build/mars_rover_nav/mars_rover_nav.egg-info/PKG-INFO
+[2.994s] writing dependency_links to ../../build/mars_rover_nav/mars_rover_nav.egg-info/dependency_links.txt
+[2.995s] writing entry points to ../../build/mars_rover_nav/mars_rover_nav.egg-info/entry_points.txt
+[2.995s] writing requirements to ../../build/mars_rover_nav/mars_rover_nav.egg-info/requires.txt
+[2.995s] writing top-level names to ../../build/mars_rover_nav/mars_rover_nav.egg-info/top_level.txt
+[2.995s] writing manifest file '../../build/mars_rover_nav/mars_rover_nav.egg-info/SOURCES.txt'
+[3.004s] reading manifest file '../../build/mars_rover_nav/mars_rover_nav.egg-info/SOURCES.txt'
+[3.008s] writing manifest file '../../build/mars_rover_nav/mars_rover_nav.egg-info/SOURCES.txt'
+[3.008s] running build
+[3.008s] running build_py
+[3.008s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build
+[3.009s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build/lib
+[3.009s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build/lib/mars_rover_nav
+[3.009s] copying mars_rover_nav/mock_navigation_server.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build/lib/mars_rover_nav
+[3.009s] copying mars_rover_nav/__init__.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build/lib/mars_rover_nav
+[3.009s] copying mars_rover_nav/mars_rover_navigation_server.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build/lib/mars_rover_nav
+[3.012s] running install
+[3.017s] running install_lib
+[3.019s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages/mars_rover_nav
+[3.019s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build/lib/mars_rover_nav/mock_navigation_server.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages/mars_rover_nav
+[3.022s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build/lib/mars_rover_nav/__init__.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages/mars_rover_nav
+[3.022s] copying /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build/lib/mars_rover_nav/mars_rover_navigation_server.py -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages/mars_rover_nav
+[3.022s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages/mars_rover_nav/mock_navigation_server.py to mock_navigation_server.cpython-310.pyc
+[3.024s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages/mars_rover_nav/__init__.py to __init__.cpython-310.pyc
+[3.024s] byte-compiling /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages/mars_rover_nav/mars_rover_navigation_server.py to mars_rover_navigation_server.cpython-310.pyc
+[3.026s] running install_data
+[3.028s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/ament_index
+[3.028s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/ament_index/resource_index
+[3.028s] creating /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/ament_index/resource_index/packages
+[3.028s] copying resource/mars_rover_nav -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/ament_index/resource_index/packages
+[3.028s] copying package.xml -> /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/share/mars_rover_nav
+[3.028s] running install_egg_info
+[3.031s] Copying ../../build/mars_rover_nav/mars_rover_nav.egg-info to /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages/mars_rover_nav-0.0.0-py3.10.egg-info
+[3.034s] running install_scripts
+[3.069s] Installing mars_rover_nav script to /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/mars_rover_nav
+[3.070s] Installing mock_nav script to /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/mars_rover_nav
+[3.070s] writing list of installed files to '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/install.log'
+[3.125s] Invoked command in '/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/src/mars_rover_nav' returned '0': PYTHONPATH=/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/install/mars_rover_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mars_rover_nav build --build-base /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/build install --record /home/gianluca/spaceros_tutorial/spaceros-bt-packages/ros2_ws/build/mars_rover_nav/install.log --single-version-externally-managed install_data
