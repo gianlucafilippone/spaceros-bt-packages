@@ -1,4 +1,0 @@
-[console_scripts]
-mars_rover_nav = mars_rover_nav.mars_rover_navigation_server:main
-mock_nav = mars_rover_nav.mock_navigation_server:main
-
