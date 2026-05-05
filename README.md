@@ -18,7 +18,14 @@ colcon build
 **Aleternative:** Run into Docker container
 ```
 docker build -t spaceros-packages .
-docker run -it --rm spaceros-packages spaceros-packages
+docker run -it --rm --name spaceros-packages spaceros-packages
+```
+
+> [!NOTE]
+> Open new bashes inside the container using `docker exec -it spaceros-packages bash`
+
+Source ROS and the workspace
+```
 source /opt/ros/humble/setup.bash
 . install/setup.bash
 ```
@@ -47,6 +54,11 @@ ros2 action send_goal /NavigateToGoal nav2_msgs/action/NavigateToPose \
 
 ```
 
+### camera mock
+This package runs a node that simulates a camera by publishing on the topic `/image_raw` topic
+
+```ros2 run camera_mock camera_mock```
+
 ### py_trees_bt_runner
 Behavior tree executor implemented using [`py_trees`](https://py-trees.readthedocs.io/) and [`py_trees_ros`](https://py-trees-ros.readthedocs.io/). The executor reads BTs in the XML syntax provided by [Groot2](https://www.behaviortree.dev/groot). Trees must be provided as command line arguments or set as defaults within the executor's code.
 
@@ -65,6 +77,11 @@ ros2 run py_trees_bt_runner bt_runner /full/path/to/tree_file.xml
 
 > [!NOTE]
 > Only the actions related to the _Inspection Mission_ (`inspection_mission.xml`) are implemented. They require the navigation system up and running.
+
+> [!NOTE]
+> If the BT runner is running without a simulated robot, the camera mock needs to be run.
+
+
 
 ### trees
 Example trees in the [Groot2](https://www.behaviortree.dev/groot) XML syntax.
